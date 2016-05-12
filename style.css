@@ -150,6 +150,7 @@ header{
     border: none !important;
     color: inherit !important;
     outline: none !important;
+    padding: 0;
     /*font: inherit !important;*/
 }
 

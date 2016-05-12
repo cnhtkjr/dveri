@@ -70,7 +70,7 @@ header{
     /*HEAD-MENU*/
     .head-menu{
         background: #2b4e51;
-        padding: 0 0 3rem 0;
+        padding: 12px 0 3rem 0;
 
     }
 
@@ -79,21 +79,21 @@ header{
     }
 
     .head-menu section>div:not(.logo){
-        padding-top: 34px;
+       /* padding-top: 34px;*/
 
     }
-        div.logo{
+        .logo{
             min-height: 75px;
             min-width: 180px;
             padding-right: 0;
-            padding-top: 12px;
+           /* padding-top: 12px;*/
         }
-        div.logo+div.logo-discription{
+        .logo+.logo-discription{
             font-size: 2rem;
             font-weight: bold;
             line-height: 1;
             text-align: left;
-            padding-top: 45px;
+           /* padding-top: 45px;*/
             z-index: 5;
         }
 
@@ -152,5 +152,21 @@ header{
     outline: none !important;
     padding: 0;
     /*font: inherit !important;*/
+}
+
+.flex-container, .flex-container-center-between{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.flex-center-vertical, .flex-container-center-between{
+    align-items: center;
+}
+
+.flex-beetwen, .flex-container-center-between{
+
+    justify-content: space-between;
+
 }
 

@@ -1,0 +1,155 @@
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: "Roboto", Arial, sans-serif;
+}
+.body{
+    max-width: 1200px;
+}
+
+
+
+header{
+
+    background: #1f484c;
+
+
+}
+
+    /*ROOF*/
+    .roof{
+        padding: 12px 0;
+        font-family: "Roboto", Arial, sans-serif;
+        position: relative;
+        z-index: 100;
+    }
+
+        .cabinet {
+            font-size: 14px;
+            line-height: 1.5;
+            text-align: left;
+        }
+
+
+        .call-number span {
+            font-size: 21px;
+            font-weight: bold;
+            line-height: 1;
+            text-align: left;
+
+        }
+
+
+        .socials {
+            display: inline-block;
+            height: 24px;
+            width: 24px;
+            background: url("img/socials.png") no-repeat 0 0;
+
+
+        }
+
+        .scls-vk{
+            background-position: 0 0;
+        }
+
+        .scls-youtube{
+            background-position: -81px 0;
+        }
+
+        .scls-facebook{
+            background-position: -28px 0;
+        }
+
+        .scls-instagram{
+            background-position: -52px 0;
+        }
+    /*/ROOF*/
+
+    /*HEAD-MENU*/
+    .head-menu{
+        background: #2b4e51;
+        padding: 0 0 3rem 0;
+
+    }
+
+    .head-menu>div:last-child{
+        padding-left: 0;
+    }
+
+    .head-menu section>div:not(.logo){
+        padding-top: 34px;
+
+    }
+        div.logo{
+            min-height: 75px;
+            min-width: 180px;
+            padding-right: 0;
+            padding-top: 12px;
+        }
+        div.logo+div.logo-discription{
+            font-size: 2rem;
+            font-weight: bold;
+            line-height: 1;
+            text-align: left;
+            padding-top: 45px;
+            z-index: 5;
+        }
+
+        .search-wrapper{
+            padding-left:  0;
+            padding-right: 0;
+        }
+
+        input[type="search"].form-control {
+            background: none;
+            border: none;
+            color: #aaa;
+            padding: 1.5rem 1ch 0 3ch;
+            font-size: 1.5rem;
+            font-style: italic;
+
+        }
+
+        input[type="search"]:focus{
+            outline: none;
+            box-shadow: none;
+
+        }
+
+        .input-group.search{
+            border: none #ffffff;
+            border-bottom: 1px solid;
+        }
+
+        .search button>.glyphicon-search{
+
+            font-size: 3rem;
+
+        }
+
+        .search .btn-unstyled{
+            padding: 0;
+
+        }
+    /*/HEAD-MENU*/
+
+
+/*supports*/
+
+
+
+.shadow{
+
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.35);
+}
+
+.btn-unstyled, .btn-unstyled:hover, .btn-unstyled:focus{
+    background: none !important;
+    border: none !important;
+    color: inherit !important;
+    outline: none !important;
+    /*font: inherit !important;*/
+}
+

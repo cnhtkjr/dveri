@@ -70,7 +70,7 @@ header{
     /*HEAD-MENU*/
     .head-menu{
         background: #2b4e51;
-        padding: 0 0 3rem 0;
+        padding: 12px 0 3rem 0;
 
     }
 
@@ -78,23 +78,26 @@ header{
         padding-left: 0;
     }
 
-    .head-menu section>div:not(.logo){
-        padding-top: 34px;
-
-    }
-        div.logo{
-            min-height: 75px;
-            min-width: 180px;
+        .logo-wrapper{
+            /*min-height: 75px;*/
+            max-width: 180px;
             padding-right: 0;
-            padding-top: 12px;
         }
-        div.logo+div.logo-discription{
+
+        .logo{
+
+
+        }
+        .logo-description-wrapper{
+
+
+        }
+
+        .logo-description{
             font-size: 2rem;
             font-weight: bold;
             line-height: 1;
             text-align: left;
-            padding-top: 45px;
-            z-index: 5;
         }
 
         .search-wrapper{
@@ -133,7 +136,49 @@ header{
             padding: 0;
 
         }
-    /*/HEAD-MENU*/
+
+
+        .basket-wrapper{
+            text-align: right;
+        }
+
+        .basket-wrapper .glyphicon.glyphicon-shopping-cart{
+            font-size: 42px;
+            color: #a3c318;
+        }
+
+        .basket-wrapper>div{
+            display: inline-block;
+        }
+
+        .basket-wrapper>div:first-child{
+          padding-right: 15px;
+        }
+
+        .basket-wrapper>div:last-child{
+            text-align: left;
+        }
+
+
+        .basket-title{
+            font-size: 21px;
+            font-weight: bold;
+            line-height: 1;
+            text-align: left;
+        }
+
+        .basket-items{
+            font-size: 14px;
+            line-height: 1.5;
+            text-align: left;
+            white-space: nowrap;
+        }
+
+
+
+
+
+/*/HEAD-MENU*/
 
 
 /*supports*/
@@ -152,5 +197,21 @@ header{
     outline: none !important;
     padding: 0;
     /*font: inherit !important;*/
+}
+
+.flex-container, .flex-container-center-between{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.flex-center-vertical, .flex-container-center-between{
+    align-items: center;
+}
+
+.flex-beetwen, .flex-container-center-between{
+
+    justify-content: space-between;
+
 }
 

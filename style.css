@@ -184,8 +184,6 @@ header{
 
     .navbar-buro li{
         border: 1px #ffffff;
-      /*  border-left: solid;
-        border-right:solid ;*/
         float: none;
     }
 
@@ -195,9 +193,9 @@ header{
         font-size: 21px;
         line-height: 1;
     }
-   /* .navbar-buro li a::after, .navbar-buro li a::before{
-        content: "|";
-    }*/
+    .navbar-buro li::after{
+        
+    }
 
 
 

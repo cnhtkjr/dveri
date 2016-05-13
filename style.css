@@ -174,7 +174,28 @@ header{
             white-space: nowrap;
         }
 
+    .navbar-buro{
+        background: #a3c318;
+       /* min-height: 0;*/
+        border: none;
+        border-radius: 0;
 
+    }
+
+    .navbar-buro li{
+        border: 1px #ffffff;
+        float: none;
+    }
+
+    .navbar-nav.nav.nav-justified>li>a{
+        font: inherit;
+        color: inherit;
+        font-size: 21px;
+        line-height: 1;
+    }
+    .navbar-buro li::after{
+        
+    }
 
 
 
@@ -215,3 +236,7 @@ header{
 
 }
 
+.navbar{
+
+
+}
